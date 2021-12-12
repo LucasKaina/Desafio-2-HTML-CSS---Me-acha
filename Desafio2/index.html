@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Me acha</title>
+</head>
+<body>
+    <header id="cabecalho" class="flex">
+        <h1> ME ACHA! </h1>
+        <h5> ENCONTRE UM ENDEREÇO PELO NÚMERO DO CPF</h5>
+        <div id="icon" class="flex">
+            <span class="material-icons">
+                travel_explore
+                </span>
+        </div>
+    </header>
+<main>
+    <section id="formulario" class="flex">
+        <form method="get" name="cep">
+            <fieldset>
+                <label for="cepusu"> Cep </label>
+                <input type="number" class="num" id="cepusu" name="cepusu" value=""> 
+                <label for="Ruausu"> Rua</label>
+                <input type="text" class="txt" id="Ruausu" name="Ruausu" value="">
+                <label for="Bairrousu"> Bairro </label>
+                <input type="text" class="txt" id="Bairrousu" name="Bairrousu" value="">
+                <label for="Cidadeusu"> Cidade </label>
+                <input type="text" class="txt" id="Cidadeusu" name="Cidadeusu" value="">
+                <label for="Estadousu"> Estado </label>
+                <input type="text" class="txt" id="Estadousu" name="Estadousu" value="">
+                
+                <input id="submit" type="button" name="EnviarDados" value="BUSCAR">
+                
+            </fieldset>   
+        </form>
+
+    </section>
+</main>
+</body>
+</html>
